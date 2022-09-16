@@ -1,52 +1,29 @@
 ---
-title: 主题配置
-author: 前端程序猿
+title: Supuestamente
+author: Stollander
 tags:
-  - vuepress
-  - theme
+  - filosofía
+  - inteligencia emocional
+  - estupideces
 categories:
-  - vuepress博客主题
+  - filosofía
+  - tonterias
+  - estupideces
 postImage: https://v2.vuepress.vuejs.org/images/hero.png
 ---
 
-一个基于 Vuepress2 的博客主题， 点击 [demo](https://www.knzn.net/) 查看演示效果
+一 Vuepress2 sddfdsfsdfsdf sdf 
 
 <!-- more -->
 
-## 一、安装
-
-你可以直接 `fork` 或 `clone` 源码进行修改, 也可以通过 `npm` 安装使用
-
-- **步骤 1**: 创建并进入一个新目录
+## 一、MAMON ONE 
 
 ```sh
 mkdir vuepress-starter
 cd vuepress-starter
 ```
 
-- **步骤 2**: 初始化项目
 
-```sh
-git init
-yarn init # or npm init
-```
-
-- **步骤 3**: 将默认的临时目录和缓存目录添加到 .gitignore 文件中
-
-```sh
-echo 'node_modules' >> .gitignore
-echo '.temp' >> .gitignore
-echo '.cache' >> .gitignore
-```
-
-- **步骤 4**: 将 VuePress、 vuepress-theme-knzn 安装为本地依赖
-
-```sh
-yarn add -D vuepress@next vuepress-theme-knzn
-# or npm install -D vuepress@next vuepress-theme-knzn
-```
-
-- **步骤 5**: 在 package.json 中添加一些 scripts
 
 ```json
 {
@@ -60,18 +37,6 @@ yarn add -D vuepress@next vuepress-theme-knzn
 - **步骤 6**: 创建博客网址首页
 
   你也可以直接把源码中的 `docs` 目录直接复制到你本地
-
-```sh
-mkdir docs
-touch docs/index.md
-```
-
-- **步骤 7**: 配置主题
-
-```sh
-mkdir docs/.vuepress
-touch docs/.vuepress/config.ts
-```
 
 `docs/.vuepress/config.ts`
 
@@ -88,13 +53,6 @@ export default defineUserConfig({
 })
 ```
 
-- **步骤 8**: 在本地启动服务器来开发你的文档网站
-
-```sh
-yarn docs:dev # or npm run docs:dev
-```
-
-## 二、主题配置
 
 ### 网站相关
 

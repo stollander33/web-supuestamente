@@ -1,7 +1,7 @@
 ---
-title: 首页
+title: Supuestamente
 ---
 
-这是首页，这个页面的内容并不会被渲染，如果不提供这个文件，打包后的代码将无法正常访问
+BLA BLA
 
 <!-- more -->
