@@ -5,9 +5,9 @@ import { webpackBundler } from '@vuepress/bundler-webpack'
 
 export default defineUserConfig({
   // 站点配置
-  lang: 'zh-CN',
-  title: 'knzn.net',
-  description: '大前端知识分享网站',
+  lang: 'es-ES',
+  title: 'SUPUESTAMENTE',
+  description: 'sin el beneplacito del gobierno, solo se puede pensar...',
   base: '/vuepress-theme-knzn/',
   // debug: true,
   bundler: webpackBundler(),

@@ -5,9 +5,9 @@ import KnznTheme from '../../src/node'
 
 export default defineUserConfig({
   // 站点配置
-  lang: 'zh-CN',
-  title: 'knzn.net',
-  description: '大前端知识分享网站',
+  lang: 'es-ES',
+  title: 'SUPUESTAMENTE',
+  description: 'Cuando no se puede hablar, solo queda pensar',
   // debug: true,
   // bundler: webpackBundler(),
   theme: KnznTheme({

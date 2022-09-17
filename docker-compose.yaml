@@ -1,0 +1,42 @@
+version: '3.0'
+services:
+
+   supuestamente:
+    image: richardssenstollander/supuestamente:1.0
+    build: .
+    tty: true
+    ports:
+      - 8088:8088
+    env_file:
+      - supuestamente.env
+    
+#   working_dir: /app
+#    command:
+#      - npm
+#      - run
+#      - docs:dev
+    networks:
+      - default
+
+    environment:
+      - VERSION=master
+      - DEBUG=False
+      - VIRTUAL_HOST=supuestamente.es     
+      - SSL_POLICY=Mozilla-Modern
+      - VIRTUAL_PROTO=http
+      - VIRTUAL_PORT=8088
+      #- VIRTUAL_PROTO=uwsgi
+      - LETSENCRYPT_HOST=supuestamente.es
+      - LETSENCRYPT_EMAIL=stollander@proton.me
+      - USE_CACHE = ${USE_CACHE:-True}
+      - XMPP_WS=https://agora.supuestamente.es:5281/http-bind
+      - APP_DEFAULT_DOMAIN=supuestamente.es
+
+    volumes:
+      - .:/app
+
+networks:
+  default:
+    external:
+      name: net-proxy
+

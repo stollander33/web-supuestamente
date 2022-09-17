@@ -14,6 +14,7 @@
     "strict": true,
     "strictNullChecks": true,
     "target": "ES5",
-    "rootDir": "./src"
+    "rootDir": "./src",
+    "allowSyntheticDefaultImports": true
   }
 }
